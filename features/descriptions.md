@@ -17,3 +17,22 @@
 **8. Tempo**: O tempo estimado geral de uma música em batidas por minuto (BPM). Na terminologia musical, o tempo é a velocidade ou ritmo de uma determinada parte e deriva diretamente da duração média do tempo.
 
 **9. Valence**: Uma medida de 0,0 a 1,0 que descreve a positividade musical transmitida por uma música. Musicas com alta valência soam mais positivas (por exemplo, feliz, alegre, eufórico), enquanto músicas com baixa valência soam mais negativas (por exemplo, triste, deprimido, irritado).
+
+**10. Key**:  Em música, a "chave" refere-se à escala maior ou menor na qual a música está escrita. Cada chave corresponde a uma das 12 notas musicais e pode ser mapeada para números inteiros de 0 a 11, onde cada número corresponde a uma nota específica:
+    - 0: Dó (C)
+    - 1: Dó# / Ré♭ (C#/Db)
+    - 2: Ré (D)
+    - 3: Ré# / Mi♭ (D#/Eb)
+    - 4: Mi (E)
+    - 5: Fá (F)
+    - 6: Fá# / Sol♭ (F#/Gb)
+    - 7: Sol (G)
+    - 8: Sol# / Lá♭ (G#/Ab)
+    - 9: Lá (A)
+    - 10: Lá# / Si♭ (A#/Bb)
+    - 11: Si (B)
+
+**11. Explicit**: a coluna "explicit" indica se a música contém ou não conteúdo explícito, como palavrões, linguagem ofensiva ou temas que podem ser considerados inapropriados para certas audiências, especialmente crianças.
+
+    - explicit = 1: A música é marcada como explícita, indicando que ela contém conteúdo que pode não ser adequado para todas as idades.
+    - explicit = 0: A música não contém conteúdo explícito e é considerada apropriada para todas as idades.
