@@ -1,10 +1,20 @@
 # %% 
 # 1. Importando bibliotecas
 
-import joblib
-import pandas as pd
+import sys
+import pandas as pd                        
+import numpy as np                             
+import seaborn as sns                                 
+import matplotlib.pyplot as plt   
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+import joblib
+               
+from sklearn.cluster import KMeans    
+from sklearn.preprocessing import MinMaxScaler, FunctionTransformer
+from sklearn.model_selection import train_test_split
+from sklearn.decomposition import PCA  
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
 
 # %%
 # 2. Importando os dados para testes
@@ -12,6 +22,8 @@ testes = pd.read_csv("../data/dados_testes.csv")
 
 # %% 
 # 3. Importando o pipeline
+sys.path.insert(0,'../functions')
+from funcoes import selecao_colunas_pipeline
 pipeline = joblib.load('../models/pipeline.joblib')
 
 # %%
@@ -54,6 +66,7 @@ for i, a, t in zip(lista_nuvens, ax.flat, titulos):
     a.axis('off')
     a.set_title(t, fontsize=12)
     
-plt.suptitle("Nuvem de palavras - Clusters - Treino", fontsize=16)
+plt.suptitle("Nuvem de palavras - Clusters - Simulação produção", fontsize=16)
 ax[2][1].axis('off')
+plt.savefig('../images/03_Testes_nuvem.png')
 plt.show()
