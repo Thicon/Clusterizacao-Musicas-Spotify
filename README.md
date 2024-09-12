@@ -108,7 +108,7 @@ Análises detalhadas das colunas, com insights plotados
 <img src="images/02_07_Clusterizacao_box_valence.png" alt="box_valence" width="800"/>
 
 
-### **Descrição dos clusters:**
+### **Descrição dos clusters - Notebook: 02_Clusterizacao.ipynb**
 
 Cluster 0:
 
@@ -189,6 +189,8 @@ Criação de pipeline com pré-processamento e modelo, incluindo:
   - Normalização dos dados - Escala 0-1
   - Criação do PCA
   - Modelo Kmeans de 5 clusters
+
+OBS: Esse é um modelo diferente do modelo do notebook 02_Clusterizacao.ipynb, ou seja, os clusters são diferentes
 
 Por fim, fiz visualizações nas bases de treinamento e teste.
 
