@@ -196,7 +196,7 @@ Por fim, fiz visualizações nas bases de treinamento e teste.
 
 ------------------
 
-### **Script Python: 03_simulando_producao**
+### **Script Python: 03_Simulando_producao**
 
 Importação do pipeline, e aplicação em cima de um conjunto de dados separado anteriomente. Além de algumas visualizações em cima desses dados.
 
