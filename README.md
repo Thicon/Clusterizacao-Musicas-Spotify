@@ -108,9 +108,78 @@ Análises detalhadas das colunas, com insights plotados
 <img src="images/02_07_Clusterizacao_box_valence.png" alt="box_valence" width="800"/>
 
 
-- A descrição das características dos clusters está presente no notebook 02_Clusterizacao.ipynb
-- Este notebook, contém outros insights também
+### **Descrição dos clusters:**
 
+Cluster 0:
+
+  - 4672 músicas.
+  - Grande parte das músicas lançadas entre as décadas de 30 e 50
+  - BPM médio de 111.0
+  - Acusticidade média, com mediana de 0,54
+  - Dançabilidade média alta, com mediana de 0,70
+  - Energia baixa, com mediana de 0,21
+  - Instrumentalidade praticamente nula
+  - Vivacidade não influencia no cluster
+  - Volume (dB) baixo, com mediana de -14,4, indicando grande quantidade de músicas relativamente mais silenciosas
+  - Detecção de presença de fala alta, com mediana de 0,94
+  - Valência musical moderada, com mediana de 0,54
+    
+Cluster 1:
+
+  - 48181 músicas.
+  - Grande parte das músicas foram lançadas nas décadas de 50 a 80.
+  - BPM médio de 114.2
+  - Acusticidade alta, com mediana de 0,86
+  - Dançabilidade média, com mediana de 0,50
+  - Energia baixa, com mediaan de 0,29
+  - Instrumentalidade praticamente nula
+  - Vivacidade não influencia no cluster
+  - Volume (dB) baixo, com mediana de -12,2, indicando grande quantidade de músicas relativamente mais silenciosas
+  - Detecção de presença de fala baixo, com mediana de 0,04
+  - Valência musical moderada, com grande parte dos valores entre 0,28 e 0,68
+    
+Cluster 2:
+
+  - 35890 músicas
+  - Grande parte das musicas lançadas na década de 90 e acima dos anos 2000
+  - BPM médio de 120.3
+  - Acusticidade quase nula, com mediana de 0,04
+  - Dançabilidade média, com mediana de 0,51
+  - Energia média-alta, com mediana de 0,72
+  - Instrumentalidade praticamente nula
+  - Vivacidade não influencia no cluster
+  - Volume (dB) um pouco mais alto que os outros clusters, com mediana de -8, indicando músicas mais altas
+  - Detecção de presença de fala baixo, com mediana de 0,05
+  - Valência musical moderada, com valores entre 0,26 e 0,51
+    
+Cluster 3:
+
+  - 41731 músicas
+  - Grande parte das músicas lançadas entre a década de 70 e os anos 2000
+  - BPM médio de 119.7
+  - Acusticidade baixa, com mediana de 0,19
+  - Dançabilidade moderada, com mediana de 0,66
+  - Energia moderada, com mediana de 0,67
+  - Instrumentalidade praticamente nula
+  - Vivacidade não influencia no cluster
+  - Volume (dB) com mediana de -9,4, indicanndo músicas mais altas
+  - Detecção de presença de fala baixo, com mediana de 0,05
+  - Valência musical alta, com mediana de 0,79
+    
+Cluster 4
+
+  - 22625 músicas
+  - Grande parte das músicas lançadas entre as décadas de 40 e 70
+  - BPM médio de 112.6
+  - Acusticidade alta, com mediana de 0,97
+  - Dançabilidade média-baixa, com mediana de 0,42
+  - Energia baixa, com mediana de 0,20
+  - Instrumentalidade alta, com mediana de 0,87
+  - Vivacidade não influencia no cluster
+  - Volume (dB) baixo, com mediana de -13, indicando grande quantidade de músicas relativamente mais silenciosas
+  - Detecção de presença de fala baixa, com mediana de 0,04
+  - Valência musical baixa-moderada, com grande parte dos valores distribuidos entre 0,13 e 0,65
+ 
 ------------------
 
 ### **02_Clusterização_pipeline**
